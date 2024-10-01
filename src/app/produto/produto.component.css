@@ -1,0 +1,11 @@
+.indisponivel{
+  background-color: red;
+  border-color: red;
+  pointer-events: none; /* Desativa eventos de clique */
+  opacity: 0.6; /* Reduz a opacidade para dar aparência de desabilitado */
+  cursor: not-allowed;
+}
+.comprar{
+  background-color: aqua;
+  border-color: aqua
+}

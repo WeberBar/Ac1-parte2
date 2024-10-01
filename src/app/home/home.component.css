@@ -1,0 +1,31 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  background: linear-gradient(to right, #2a2d4b, #4a56a1);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content h1 {
+  font-size: 48px;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.mostrar{
+  content: "Mostrar";
+  background-color: aqua;
+}
+
+.ocultar{
+  content: "ocultar";
+  background-color: red;
+
+
+}

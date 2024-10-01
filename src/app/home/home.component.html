@@ -1,0 +1,24 @@
+
+<body class="justify-content-md-center">
+    <div *ngIf="showBanner"  class="container my-5">
+        <div class="row align-items-center banner">
+            <div class="col-md-6 banner-content text-white">
+                <h1 class="display-4">Mega Sale - 50% OFF!</h1>
+                <p class="lead">Limited time offer on <strong>Lumina Pro 5000</strong>. Upgrade your lifestyle!</p>
+                <a href="#" class="btn btn-danger btn-lg">Shop Now</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://png.pngtree.com/png-clipart/20220423/ourmid/pngtree-desk-study-lamp-png-image_4553312.png" alt="Lumina Pro 5000" class="img-fluid rounded product-image">
+            </div>
+        </div>
+    </div>
+    <div>
+      <button class="btn btn-danger"
+              [ngClass]="{'ocultar': showBanner, 'mostrar':!showBanner}"
+              (click)="ocultar_mostrar()">{{showBanner ? 'Ocultar' : 'mostrar'}}
+
+      </button>
+    </div>
+
+
+</body>
